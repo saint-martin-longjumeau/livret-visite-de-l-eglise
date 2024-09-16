@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage[final]{pdfpages}   % Pour inclure des pages PDF
+\usepackage[a4paper]{geometry} % Taille de papier A4
+
+\begin{document}
+
+% Génère un livret automatiquement avec réorganisation des pages
+\includepdf[pages=-,booklet=true,landscape]{livret_base.pdf}
+
+\end{document}
